@@ -69,14 +69,15 @@ header nav ul li:last-child a{
     margin-top: 200px;
 }
 
-.regular_updates h1 {
+.regular_updates h1{
 	font-family: 'Raleway', sans-serif;
 	font-weight: 700;
 	color: white;
 	font-size: 40px;
 	letter-spacing: 1px;
 }
-.regular_updates p {
+
+.regular_updates p{
 	margin-top: 40px;
 	font-family: 'Raleway', sans-serif;
 	font-weight: 300;
@@ -85,6 +86,33 @@ header nav ul li:last-child a{
 	letter-spacing: 1px;
 }
 
+.contact {
+	width: 60%;
+	height: 200px;
+	float: left;
+	margin-left: 25%;
+    margin-top: 110px;
+}
+
+.contact h1 {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 700;
+	color: white;
+	font-size: 40px;
+	letter-spacing: 1px;
+    text-align: center;
+}
+
+.contact p {
+	margin-top: 40px;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 300;
+	color: grey;
+	font-size: 14px;
+	letter-spacing: 1px;
+    text-align: center;
+    line-height: 30px;
+}
 
 input[type="text"] {
     width: 50%;

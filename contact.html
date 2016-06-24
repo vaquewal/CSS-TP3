@@ -3,78 +3,91 @@
 <html>
 <head              	
 	<meta charset="utf-8">
-	<title>Trabajo Practico 2</title>
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/style_contact.css">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700,800|Raleway:300,400,700,800" rel="stylesheet">
+	<title>CSS TP3</title>
 </head>
 	<body>
 
-		<header id="encabezado">
-			<div>
-				<a href="index.html"><img src="http://placehold.it/70x50"></a>
-			</div>
-			<div>
-				<nav>
-					<ul>
-						<li><a href="index.html"	>Home</a>		</li>
-						<li><a href="contact.html"	>Contact</a>	</li>
-					</ul>
-				</nav>
-			</div>
+		<header>
+			<nav class="contenedor_getintouch">
+				<a href="index.html"><img src="assets/header-logo.png"></a>
+				<ul>
+					<li><a href="index.html"	>Home</a>		</li>
+					<li><a href="contact.html"	>Contact</a>	</li>
+				</ul>
+			</nav>
 		</header>
 
-		<section>
-			<div>
-				<h2>
-					Contact
-				</h2>
-				<h5>Curabitur ultries elementum mauris eu dapibus dui aliquet et mauris euismod neque a molestie sem fringilla non</h5>
+
+		<section class="section1_contact">
+			<div class="contenedor_getintouch">
+				<div class="contact">
+					<h1>Contact</h1>
+					<p>Curabitur ultries elementum mauris eu dapibus dui aliquet et mauris euismod neque a molestie sem fringilla non</p>
+				</div>
 			</div>
 		</section>
+	
+<!--
+		<section class="section1">
+			<div class="form_domino">
+						<form method="post" action="enviar.php">
+							<input type="text" name="dominio" placeholder="Enter your domain name and hit enter." required></input>
+							<input type="submit" value="Search"></input>
+						</form>
+					</div>
+		</section>
+-->
 
-		<section>
-			<div>
+		<section class="section_getintouch">
+			<div class="getintouch">
 				<h2>Get in Touch</h2>
 				<p>Dues egestas nibh at ex ornare efficitur fusce ullamcoper turpis eu lectus</p>
 			</div>
 
-			<div>
+			<div class="formulario_getintouch">
 				<form>
 				    <fieldset>
-				    	<p>
-				    	    <input type="text" name="artem" id="artem" value="Artem" />
-					    </p>
-					    <p>
-					        <input type="text" name="subname" id="subname" value="Subname" />
-					    </p>
-					    <p>
-					        <input type="text" name="subject" id="subject" value="Subject" />
-					    </p>
-					    <p>
+				    	<div class="iz">
+					    	<div class="artem">
+					    	    <input type="text" name="artem" id="artem" value="Artem" />
+						    </div>
+						    <div class="subname">
+						        <input type="text" name="subname" id="subname" value="Subname" />
+						    </div>
+						    <div class="subject">
+						        <input type="text" name="subject" id="subject" value="Subject" />
+						    </div>
+						 </div>
 	                       	<textarea name="message" id="message" placeholder="Message"></textarea>
-				    	</p>
-				  		<input type="submit" value="Submit"></input>
+	                    <div class="boton">
+				  			<input type="submit" value="Submit"></input>
+						</div>
 				    </fieldset>
 				  </form>
 			</div>
 		</section>
 
-	<section>
-		<div>
-			<p>
-				Hosting use 500,000 happy customers. Want to see services?
-			</p>
-		</div>
-	</section>
 
-		<footer>
-			<div>
-				<p>C 2015 Hostro. All right reserver.</p>
+		<section class="section6">
+			<div class="contenedor_getintouch">
+				<p>
+					Hosting use <span>500,000</span> happy customers. Want to see services?
+				</p>
 			</div>
-			<div>
+
+		</section>
+
+		<footer class="section7">
+			<div class="contenedor_getintouch">
+				<p>2015 Hostro. All right reserved.</p>
 				<nav>
 					<ul>
 						<li><a href="index.html"	>Home</a>		</li>
 						<li><a href="contact.html"	>Contact</a>	</li>
-						<li><a href="#encabezado">X</a></li>
+						<li><a href="icono.html"	>^</a></li>
 					</ul>
 				</nav>
 			</div>
